@@ -1,0 +1,39 @@
+.app-editable-list {
+  width: 600px;
+  margin: 0 auto;
+  padding: 1.5em;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+
+.new-item-container {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.new-item-container input {
+  width: 100%;
+  font-size: 1.4em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.new-item-container .submit {
+  padding: .5em .8em;
+  background: #007bff;
+  color: white;
+  white-space: nowrap;
+  border-radius: 4px;
+  margin-left: .5em;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.new-item-container .submit:hover {
+  background: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
