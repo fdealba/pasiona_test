@@ -35,11 +35,12 @@ const AppListItem = ({ content, itemIdx, setItems }) => {
   };
 
   return (
-    <div className="app-list-item">
+    <div className="app-list-item" data-testid="appListItem">
       <div className="content-container">
         {editMode ? (
           <input
             autoFocus
+            data-testid="editInput"
             onKeyDown={onKeyDownHandler}
             onBlur={handleEditModeEnd}
             defaultValue={content}
@@ -50,12 +51,12 @@ const AppListItem = ({ content, itemIdx, setItems }) => {
         )}
       </div>
 
-      <div className="controls">
+      <div className="controls" data-testid="controls">
         <a>
-          <FontAwesomeIcon icon={faEdit} onClick={onEditClickedHandler} />
+          <FontAwesomeIcon icon={faEdit} onClick={onEditClickedHandler} data-testid="edit"/>
         </a>
         <a>
-          <FontAwesomeIcon icon={faTrash} onClick={onDeleteClickedHandler} />
+          <FontAwesomeIcon icon={faTrash} onClick={onDeleteClickedHandler} data-testid="delete"/>
         </a>
       </div>
     </div>

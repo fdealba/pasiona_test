@@ -6,7 +6,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container" data-testid="container">
       <AppEditableList />
     </div>
   );

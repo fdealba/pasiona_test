@@ -29,9 +29,9 @@ const AppEditableList = () => {
   ));
 
   return (
-    <div className="app-editable-list">
+    <div className="app-editable-list" data-testid="appEditableList">
       <div className="new-item-container">
-        <input type="text" onKeyDown={onKeyDownHandler} ref={addItemInput} />
+        <input type="text" onKeyDown={onKeyDownHandler} ref={addItemInput} data-testid="addItemInput" />
         <div className="submit" onClick={onAddItemHandler}>
           Add item
         </div>
