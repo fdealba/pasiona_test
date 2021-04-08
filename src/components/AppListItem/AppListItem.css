@@ -10,22 +10,22 @@
   margin-bottom: 8px;
 }
 
-.controls a {
+.controls .icon {
   cursor: pointer;
   opacity: 0.1;
   transition: opacity .3s ease-in-out;
 }
 
-.controls a:first-child {
+.controls .icon:first-child {
   margin-right: .5em;
   color: green;
 }
 
-.controls a:last-child {
+.controls .icon:last-child {
   color: red;
 }
 
-.app-list-item:hover .controls a {
+.app-list-item:hover .controls .icon {
   opacity: 1;
 }
 

@@ -52,12 +52,8 @@ const AppListItem = ({ content, itemIdx, setItems }) => {
       </div>
 
       <div className="controls" data-testid="controls">
-        <a>
-          <FontAwesomeIcon icon={faEdit} onClick={onEditClickedHandler} data-testid="edit"/>
-        </a>
-        <a>
-          <FontAwesomeIcon icon={faTrash} onClick={onDeleteClickedHandler} data-testid="delete"/>
-        </a>
+        <FontAwesomeIcon className="icon" icon={faEdit} onClick={onEditClickedHandler} data-testid="edit"/>
+        <FontAwesomeIcon className="icon" icon={faTrash} onClick={onDeleteClickedHandler} data-testid="delete"/>
       </div>
     </div>
   );
