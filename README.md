@@ -4,11 +4,11 @@ Para poder correr le proyecto en local, primero clonarlo:
 
 ### `git clone https://github.com/fdealba/pasiona_test.git`
 
-# Instalar dependencias:
+### Instalar dependencias:
 
 ### `yarn`
 
-# Iniciar la app en el puerto 3000:
+### Iniciar la app en el puerto 3000:
 
 ### `yarn start`
 
@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-# Correr los tests:
+### Correr los tests:
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
