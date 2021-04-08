@@ -12,6 +12,8 @@
 
 .controls a {
   cursor: pointer;
+  opacity: 0.1;
+  transition: opacity .3s ease-in-out;
 }
 
 .controls a:first-child {
@@ -21,4 +23,14 @@
 
 .controls a:last-child {
   color: red;
+}
+
+.app-list-item:hover .controls a {
+  opacity: 1;
+}
+
+.content-container input {
+  border: none;
+  outline: none;
+  font-size: .9em;
 }
